@@ -23,7 +23,7 @@ int getDaysInMonth(int month, int year) {
         case 12: return 31;
         default: return 0;
     }
-}
+} 
 
 // Calculate the starting weekday (0=Sunday, 1=Monday, …, 6=Saturday)
 // for the first day of a given month in a given year.
